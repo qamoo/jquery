@@ -86,6 +86,7 @@ npm run build -- --help
 ### Modules
 
 To exclude a module, pass its path relative to the `src` folder (without the `.js` extension) to the `--exclude` option. When using the `--include` option, the default includes are dropped and a build is created with only those modules.
+
 모듈을 제외하려면 `src` 폴더를 기준으로 해당 모듈의 경로(확장자 `.js`를 제외한)를 `--exclude` 옵션에 전달하면 됩니다. `--include` 옵션을 사용할 때는 기본 포함 항목이 제거되고 해당 모듈만 있는 빌드가 생성됩니다.
 
 Some example modules that can be excluded or included are:
